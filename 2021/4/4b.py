@@ -86,17 +86,3 @@ with open(args.infile) as input:
         cards = mark_cards(number, cards)
     print(f"cards {len(cards)} complete {len(complete)} number {number}")
     print(complete[-1])
-
-
-    # last_card = complete[-1]
-    # number = int(calls[i])
-    # sum = 0
-    # for x in range(len(last_card['mark'])):
-    #     for j in range(len(last_card['mark'][x])):
-    #         if last_card['mark'][x][j]==0:
-    #             print(last_card['mark'][x][j])
-    #             sum += last_card['card'][x][j]
-    #             print(sum)
-                
-    # print(sum * number)
-
