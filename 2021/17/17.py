@@ -1,5 +1,4 @@
 import argparse
-from typing import no_type_check
 
 def parse_input(input_file):
     # read in input as string
