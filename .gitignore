@@ -1,1 +1,3 @@
 .vstags
+venv
+*/*/*.txt
