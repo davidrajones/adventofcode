@@ -33,7 +33,7 @@ def move_tail(tvert, thoriz, hvert, hhoriz):
                     tvert -= 1
     return (tvert, thoriz)
 
-parser = argparse.ArgumentParser(description='Treetop Tree House')
+parser = argparse.ArgumentParser(description='Rope Bridge')
 parser.add_argument('-i', '--input', dest='infile', help='Input file')
 
 args = parser.parse_args()
