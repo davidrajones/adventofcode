@@ -36,7 +36,7 @@ def compare(array_left, array_right):
     return 0
 
 
-parser = argparse.ArgumentParser(description='Hill Climbing Algorithm')
+parser = argparse.ArgumentParser(description='Distress Signal')
 parser.add_argument('-i', '--input', dest='infile', help='Input file')
 
 index_list = list()
