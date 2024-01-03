@@ -42,7 +42,6 @@ with open(args.infile) as input:
     while line:
         spr_map, vals = line.split(' ')
         vals = eval(vals)
-        #vals = [int(n) for n in vals.split(',')]
         total += find_possibilities(spr_map, vals)
         line = input.readline().strip()
 

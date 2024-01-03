@@ -44,7 +44,6 @@ with open(args.infile) as input:
         vals = eval(vals)
         spr_map = '?'.join([spr_map] * 5)
         vals *= 5
-        #vals = [int(n) for n in vals.split(',')]
         total += find_possibilities(spr_map, vals)
         line = input.readline().strip()
 
